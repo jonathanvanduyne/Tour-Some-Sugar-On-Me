@@ -1,0 +1,33 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    padding: 1rem;
+    border: 2px solid red;
+    text-align: left;
+}
+
+.bookings {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+h1, h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
